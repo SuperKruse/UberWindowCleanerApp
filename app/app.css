@@ -1,0 +1,65 @@
+/* app css stylesheet */
+
+.center {
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  
+}
+
+.Aligner-item {
+      width: 300px;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.update{
+  font-size: 0.6em;
+  color: darkgray;
+}
+
+.btn{
+  margin-top: 50px;
+}
+
+button{
+  width: 100%;
+  background-color: #555555;
+  border: 0;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+}
+
+.stop{
+  background-color: darkred;
+}
+.start{
+  background-color: darkgreen;
+}
+
+.card{
+  padding: 5px;
+  background-color: white;
+ border-radius: 2px;
+}
+
+.background{
+  background-color: lightgrey;
+}
+
+h1{
+  color: #555555;
+  text-align: center;
+}
+
+h2{
+  color: darkred;
+  text-align: center;
+  text-transform: uppercase;
+}

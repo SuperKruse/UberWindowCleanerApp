@@ -1,0 +1,25 @@
+<h1>UberCleaner</h1>
+<div class="center">
+    <div class="Aligner-item">
+        <div class="card">
+            <div class="update" ng-click="getWaether()">Update</div>
+            <i class="owf owf-5x owf-{{icon}} owf-pull-left"></i>
+            <p>{{des}}</p>
+            <p>Wind speed is {{windSpeed}} m/sec</p>
+            <p>Temp: {{temp}} &#8451;</p>
+        </div>
+
+        <div class="btn">
+            <div ng-if="isItSafe">
+                <button class="start" ng-click="start()" ng-hide="running">START</button>
+                <button class="stop" ng-click="stop()" ng-show="running">STOP</button>
+            </div>
+
+            <div ng-if="!isItSafe">
+                <h2>Its too windy</h2>
+            </div>
+        </div>
+
+
+    </div>
+</div>
